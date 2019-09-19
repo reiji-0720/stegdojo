@@ -1,0 +1,24 @@
+header{
+    height: 40px;
+    background-color: green;
+   
+}
+.title{
+    
+    
+}
+h1{
+    font-family: "YuMincho +36p Kana","游明朝体+36ポかな"; font-weight: 900;
+    font-size: 20px;
+}
+.image{
+    text-align: center;
+    margin: 0 auto;
+}
+.image01{
+    width: 30%;
+    height: auto;
+}
+p{
+    font-size: 20xp;
+}
