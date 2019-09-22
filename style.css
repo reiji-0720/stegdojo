@@ -1,24 +1,183 @@
-header{
-    height: 40px;
-    background-color: green;
-   
-}
-.title{
+
+@media screen and (min-width: 1360px){
+    #menu-bg{
+        background-color: green;
+    }
+    header{
+        margin-top: 0;
+        height: 40px;
+        background-color: rgba(150, 112, 255, 0.493);
+       
+    }
+    main{
+        padding-top: 10px;
+        background-image: url(backgroundlv1-2.jpg);
+        background-size: cover;
+        height: 800px;
+    }
+    h1{
+        font-family: "YuMincho +36p Kana","游明朝体+36ポかな"; font-weight: 900;
+        font-size: 20px;
+    }
+    .image{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .image01{
+        width: 280px;
+        height: 280px;
+        border-radius: 100%;
+        position: absolute;
+        top: 330px;
+        left: 11%;
+    }
+    p{
+        color: white;
+    }
+    .color-red{
+        color: red;
+    }
+    .name{
+         font-size: 100px;
+         color: white;
+         margin: 0;
+         text-align: center;
+    }
+    .name p{
+        font-size: 20xp;
+        font-weight: 600;
+        color: white;
+        margin: 0;
+    }
+    .center{
+        font-size: 30px;
+        font-weight: 600;
     
+    }
+    .hyde{
+        display: none;
+    }
     
 }
-h1{
-    font-family: "YuMincho +36p Kana","游明朝体+36ポかな"; font-weight: 900;
-    font-size: 20px;
+@media screen and (max-width: 1360px){
+    #menu-bg{
+        background-color: red;
+    }
+    header{
+        margin-top: 0;
+        height: 40px;
+        background-color: rgba(150, 112, 255, 0.493);
+       
+    }
+    main{
+        padding-top: 10px;
+        
+        background-image: url(backgroundlv1-2.jpg);
+        background-size: cover;
+        height: 500px;
+    }
+    h1{
+        font-family: "YuMincho +36p Kana","游明朝体+36ポかな"; font-weight: 900;
+        font-size: 20px;
+    }
+    .image{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .image01{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        
+        top: 270px;
+        left: 11%;
+    }
+    p{
+        font-size: 50xp;
+        font-weight: 600;
+        color: white;
+        margin: 0;
+    }
+    .color-red{
+        color: red;
+    }
+    .name{
+         font-size: 100px;
+         color: white;
+         margin: 0;
+         text-align: center;
+    }
+    .hyde{
+        display: none;
+    }
 }
-.image{
-    text-align: center;
-    margin: 0 auto;
+@media screen and (max-width: 1100px) and (min-width:600px){
+    .name{
+        display: none;
+    }
+    .hyde{
+        display: inline;
+        font-size: 80px;
+        color: white;
+        margin: 0;
+        position: relative;
+        left:10px;
+    }
+    .image{
+        display: flex;
+        box-sizing: border-box;
+
+    }
+    .image00{
+        width: 50%;
+    }
+    .text{
+        width:50%;
+    }
 }
-.image01{
-    width: 30%;
-    height: auto;
+
+@media screen and (max-width: 600px){
+    #menu-bg{
+        background-color: paleturquoise;
+    }
+    .name{
+        display: none;
+    }
+    .hyde{
+        display: inline;
+        font-size: 50px;
+        color: rgb(70, 15, 15);
+        margin: 0;
+        position: relative;
+        left:10px;
+    }
+    .image01{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
 }
-p{
-    font-size: 20xp;
+@media screen and (max-width: 479px){
+    #menu-bg{
+        background-color: paleturquoise;
+    }
+    .hyde{
+        display: inline;
+        font-size: 50px;
+        color: rgb(70, 15, 15);
+        margin: 0;
+        position: relative;
+        left:10px;
+    }
+    .image01{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
 }
