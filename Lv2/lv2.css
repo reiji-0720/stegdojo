@@ -4,3 +4,22 @@ header{
     background-color: rgba(150, 112, 255, 0.493);
    
 }
+
+.text-02{
+    display: none;
+}
+.text-01{
+    font-size: 30px;
+    color: red;
+}
+.button{
+    box-sizing: border-box;
+    width: 20%;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.main01-container{
+    margin: 0 auto;
+}
