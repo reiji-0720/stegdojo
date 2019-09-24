@@ -184,3 +184,11 @@
 body{
     display: none;
 }
+.call{
+    width: 200px;
+    height: 200px;
+}
+
+.insta{
+    margin-top: 10px;
+}
