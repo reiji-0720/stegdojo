@@ -19,6 +19,7 @@
     h1{
         font-family: "YuMincho +36p Kana","游明朝体+36ポかな"; font-weight: 900;
         font-size: 20px;
+        margin-top: 0;
     }
     .image{
         text-align: center;
@@ -98,6 +99,7 @@
     h1{
         font-family: "YuMincho +36p Kana","游明朝体+36ポかな"; font-weight: 900;
         font-size: 20px;
+        margin-top: 0;
     }
     .image{
         text-align: center;
