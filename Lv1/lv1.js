@@ -5,7 +5,8 @@ $(function(){
   $('.call').hover  (
     function(){
       $('call').css('transition-duration','2s');
-      $('.call').css('filter','drop-shadow(10px 10px 10px rgba(0,0,0,0.6))');
+     
+      //$('.call').css('filter','drop-shadow(10px 10px 10px rgba(0,0,0,0,1))');
     }
     
   );

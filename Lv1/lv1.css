@@ -60,11 +60,16 @@
     .call{
         width: 100px;
         height: 100px;
+        transition-duration: 2s;
+    }
+    .call:hover{
+        filter: drop-shadow(10px 10px 10px rgba(0,0,0,0,1));
     }
     
     .insta{
         margin-top: 10px;
     }
+
     
 }
 @media screen and (max-width: 1360px){
