@@ -212,6 +212,9 @@
     #menu-bg{
         background-color: paleturquoise;
     }
+    .dis-icon{
+        color: blue;
+    }
     .hyde{
         display: inline;
         font-size: 50px;
