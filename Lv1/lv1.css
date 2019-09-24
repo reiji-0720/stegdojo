@@ -57,6 +57,14 @@
     .hyde{
         display: none;
     }
+    .call{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .insta{
+        margin-top: 10px;
+    }
     
 }
 @media screen and (max-width: 1360px){
@@ -110,6 +118,14 @@
     .hyde{
         display: none;
     }
+    .call{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .insta{
+        margin-top: 10px;
+    }
 }
 @media screen and (max-width: 1100px) and (min-width:600px){
     .name{
@@ -133,6 +149,14 @@
     }
     .text{
         width:50%;
+    }
+    .call{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .insta{
+        margin-top: 10px;
     }
 }
 
@@ -159,6 +183,14 @@
         margin-bottom: 10px;
         
     }
+    .call{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .insta{
+        margin-top: 10px;
+    }
 }
 @media screen and (max-width: 479px){
     #menu-bg{
@@ -180,15 +212,15 @@
         margin-bottom: 10px;
         
     }
+    .call{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .insta{
+        margin-top: 10px;
+    }
 }
 body{
     display: none;
-}
-.call{
-    width: 60px;
-    height: 60px;
-}
-
-.insta{
-    margin-top: 10px;
 }
