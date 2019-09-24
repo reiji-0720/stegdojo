@@ -243,6 +243,10 @@
     .insta{
         margin-top: 10px;
     }
+    .dis-icon{
+        content:"/f392";
+        font-weight: 600;
+    }
 }
 body{
     display: none;
