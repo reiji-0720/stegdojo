@@ -25,7 +25,13 @@ main{
 
 }
 
-
+#hello,html{
+    cursor: pointer;
+    height: 100px;
+    width: 300px;
+    background-color: #9cc7e4
+    
+}
 
 #text-js{
     display:none;
