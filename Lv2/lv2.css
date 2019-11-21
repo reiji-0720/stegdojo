@@ -3,8 +3,13 @@ body{
     margin: 0;
 }
 header{
-    background-color: #444444;
+    background-color: #dddddd;
     height: 150px;
+}
+header p{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
 }
 p{
     margin: 0;
@@ -18,4 +23,10 @@ main{
 }
 .main01-container{
 
+}
+
+
+
+.text-02{
+    display:none;
 }
