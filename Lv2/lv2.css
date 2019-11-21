@@ -1,7 +1,7 @@
 header{
     margin-top: 0;
     height: 40px;
-    background-color: rgba(150, 112, 255, 0.493);
+    background-color: #d1bc95;
    
 }
 
@@ -23,4 +23,6 @@ header{
 }
 .main01-container{
     margin: 0 auto;
+    height: 700px;
+    background-color: #f7e6c3;
 }
