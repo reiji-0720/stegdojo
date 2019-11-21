@@ -4,7 +4,11 @@ body{
 }
 header{
     background-color: #444444;
+    height: 150px;
 }
 .title p{
-    margin: 0;ß
+    margin: 0;
+}
+main{
+    background-color: white;
 }
