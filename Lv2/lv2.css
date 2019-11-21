@@ -29,7 +29,7 @@ main{
 #text-js{
     display:none;
 }
-#text.html{
+#text-html{
     cursor: pointer;
     height: 100px;
     width: 300px;
