@@ -25,14 +25,13 @@ main{
 
 }
 
-#hello,html{
+
+#text-js{
+    display:none;
+}
+#text.html{
     cursor: pointer;
     height: 100px;
     width: 300px;
     background-color: #9cc7e4
-    
-}
-
-#text-js{
-    display:none;
 }
