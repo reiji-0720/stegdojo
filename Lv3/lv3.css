@@ -1,9 +1,20 @@
-header{
-    height: 100px;
-    background-color: #d1bc95;
+body{
+    background-color:rgb(224, 224, 224);
+    margin: 0;
 }
-
-.main-container{
-    height: 500px;
-    background-color: #746534;
+header{
+    background-color: #dddddd;
+    height: 50px;
+}
+header p{
+    padding-top: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.title{
+    padding: 0 5%;
+}
+p{
+    margin: 0;
 }
