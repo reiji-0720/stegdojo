@@ -31,14 +31,11 @@ main{
     padding-top : 100px;
 }
 #text-html{
-    padding: auto 0;
+    padding: 20px 0;
     text-align: center;
     border-radius : 20px;
     cursor: pointer;
-    height: 100px;
+    height: 80px;
     width: 300px;
     background-color: #9cc7e4
-}
-#hello,html{
-    padding-top: 20px;
 }
