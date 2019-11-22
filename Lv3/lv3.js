@@ -10,7 +10,9 @@ function set2fig(num) {
     var nowHour = set2fig( nowTime.getHours() );
     var nowMin  = set2fig( nowTime.getMinutes() );
     var nowSec  = set2fig( nowTime.getSeconds() );
-    var msg = "現在時刻は、" + nowHour + ":" + nowMin + ":" + nowSec + " です。";
+    var msg = nowHour + ":" + nowMin + ":" + nowSec ;
     document.getElementById("RealtimeClockArea2").innerHTML = msg;
  }
  setInterval('showClock2()',1000);
+
+
