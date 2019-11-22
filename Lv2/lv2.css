@@ -7,6 +7,7 @@ header{
     height: 50px;
 }
 header p{
+    padding-top: 5px;
     color: white;
     font-size: 24px;
     font-weight: 600;
