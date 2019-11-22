@@ -89,7 +89,7 @@ main{
 .b10_tveffect div:nth-child(2) div {
     position: absolute;
     text-align: center;
-    width: 100%;
+  
     height: 50px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
