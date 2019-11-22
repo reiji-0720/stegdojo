@@ -18,11 +18,8 @@ header p{
 p{
     margin: 0;
 }
-.timer-pos p{
-    font-size: 100px;
-    font-weight: 600;
 
-}
-.timer-pos{
-    text-align: center;
+.form{
+    
+    margin: 200px auto 0 auto;
 }
