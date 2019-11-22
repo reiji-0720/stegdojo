@@ -35,7 +35,7 @@ main{
     text-align: center;
     border-radius : 20px;
     cursor: pointer;
-    height: 40px;
+    padding-bottom: 20px;
     width: 300px;
     background-color: #9cc7e4
 }
@@ -46,4 +46,7 @@ main{
 }
 .explanation{
     margin-top:10px;
+    font-size: 20px;
+    color: rgb(255, 255, 177);
+    
 }
