@@ -30,6 +30,7 @@ main{
     display:none;
 }
 #text-html{
+    text-align: center;
     cursor: pointer;
     height: 100px;
     width: 300px;
