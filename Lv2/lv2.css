@@ -11,6 +11,9 @@ header p{
     font-size: 24px;
     font-weight: 600;
 }
+.title{
+    padding: 0 5%;
+}
 p{
     margin: 0;
 }
