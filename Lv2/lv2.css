@@ -30,11 +30,6 @@ main{
 .main01-container{
     padding-top : 100px;
 }
-
-
-#text-js{
-    display:none;
-}
 #text-html{
     padding: auto 0;
     text-align: center;
