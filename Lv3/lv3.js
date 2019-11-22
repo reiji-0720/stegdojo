@@ -1,3 +1,3 @@
 function Calc_form(){
-   fm.result.value= eval(fm,A.value)+(fm,B,value);
+   fm.C.value= eval(fm,A.value)+(fm,B,value);
 };
