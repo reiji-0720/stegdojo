@@ -9,7 +9,7 @@ if(count == 0){
     };
 }else{
     document.getElementById("text-html").onclick = function(){
-        document.getElementById("text,html").innerHTML = "Hello,HTML";
+        document.getElementById("hello,html").innerHTML = "Hello,HTML";
     count = 0;
     
     };
