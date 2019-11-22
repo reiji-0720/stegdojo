@@ -52,8 +52,13 @@ main{
     
 }
 .back{
-    width: 30%;
+
     cursor: pointer;
+    
+}
+.button-con{
+    width: 30%;
+    margin:0 auto;
 }
 
 
