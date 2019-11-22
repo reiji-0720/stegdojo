@@ -18,4 +18,11 @@ header p{
 p{
     margin: 0;
 }
-main
+.time-pos p{
+    font-size: 100px;
+    font-weight: 600;
+
+}
+.time-pos{
+    text-align: center;
+}
