@@ -30,19 +30,20 @@ main{
 .main01-container{
     padding-top : 100px;
 }
-#text-html{
+.text-html{
     padding: 40px 0;
     text-align: center;
     border-radius : 20px;
     cursor: pointer;
     padding-bottom: 20px;
     width: 300px;
-    background-color: #9cc7e4
+    background-color: white;
+    border: solid 4px;
 }
 .text p{
     font-size: 30px;
     font-weight: 600;
-    color : rgb(238, 238, 238);
+    
 }
 .explanation{
     margin-top:10px;
@@ -50,6 +51,11 @@ main{
     color: rgb(255, 255, 177);
     
 }
+.back{
+    width: 30%;
+    cursor: pointer;
+}
+
 
 
 .b10_tveffect div {
