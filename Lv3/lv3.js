@@ -9,7 +9,7 @@ button.addEventListener("click",function(e){
    var sum = parseFloat(textForm1,10) + parseFloat(textForm2,10);
 
    var resultForm = document.getElementById("resultForm");
-   document.write(sum);
+   document.getElementById("resultForm").innerHTML = (sum);
 
 });
 
