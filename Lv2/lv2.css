@@ -35,7 +35,15 @@ main{
     text-align: center;
     border-radius : 20px;
     cursor: pointer;
-    height: 60px;
+    height: 40px;
     width: 300px;
     background-color: #9cc7e4
+}
+#text-html p{
+    font-size: 30px;
+    font-weight: 600;
+    color : rgb(238, 238, 238);
+}
+.explanation{
+    margin-top:10px;
 }
