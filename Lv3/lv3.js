@@ -41,6 +41,21 @@ function isNumeric(value) {
 };
 
 
+$(function(){
+  $("#textForm1").keypress(function(event){
+    return isPositive(event);
+   }
+   
+ );
+});
+$(function(){
+ $("#textForm2").keypress(function(event){
+   return isPositive(event);
+  }
+  
+);
+});
+
 
 function isPositive(e) {
   if ( (e.which < "0".charCodeAt(0) || "9".charCodeAt(0) < e.which) && e.which != 8 && e.which != 0 && e.which != 46 )
@@ -48,12 +63,4 @@ function isPositive(e) {
   return true;
 }
 
-
- $(function(){
-   $(("#textForm1")||("#textForm2")).keypress(function(event){
-     return isPositive(event);
-    }
-    
-  );
-});
 
