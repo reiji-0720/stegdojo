@@ -12,7 +12,7 @@ button.addEventListener("click",function(e){
    checkString1 = console.log(String(textForm1).length);
    checkString2 = console.log(String(textForm2).length);
 
-   if (((0 <= checkString1) || (checkString1 <= 10))||((0 <= checkString2 )||(checkString2 <= 10))){
+   if (((0 <= checkString1) && (checkString1 <= 10))&&((0 <= checkString2 )&&(checkString2 <= 10))){
      
       
 
