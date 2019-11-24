@@ -9,8 +9,8 @@ button.addEventListener("click",function(e){
   var textForm2 = document.getElementById("textForm2").value;
 
   var sum = parseFloat(textForm1,10) + parseFloat(textForm2,10);
-   checkString1 = console.log(String(textForm1).length);
-   checkString2 = console.log(String(textForm2).length);
+   checkString1 = String(textForm1).length;
+   checkString2 = String(textForm2).length;
 
    if (((0 <= checkString1) && (checkString1 <= 10))&&((0 <= checkString2 )&&(checkString2 <= 10))){
      
