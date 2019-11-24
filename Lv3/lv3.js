@@ -1,5 +1,6 @@
 var button = document.getElementById("button");
-
+var checkString1;
+var checkString2//桁数チェック
 button.addEventListener("click",function(e){
    e.preventDefault();
 
@@ -10,6 +11,15 @@ button.addEventListener("click",function(e){
 
    var resultForm = document.getElementById("resultForm");
    document.getElementById("resultForm").innerHTML = sum ;
+
+
+   checkString = console.log(String(textForm1).length);
+
+   if ((checkString >=  10) || (checkString <= 0)){
+     
+   }else if({
+
+   }
 
 });
 
@@ -63,4 +73,16 @@ function isPositive(e) {
   return true;
 }
 
+function onKeyPress(e) {
+  if ( e.keyCode !== 13 || ( e.keyCode === 13 && (e.shiftKey === true || e.ctrlKey === true || e.altKey === true) )) { // Enterキー除外
+    return false;
+  }
+  var textForm1 = document.getElementById("textForm1").value;
+  var textForm2 = document.getElementById("textForm2").value;
+
+  var sum = parseFloat(textForm1,10) + parseFloat(textForm2,10);
+
+  var resultForm = document.getElementById("resultForm");
+  document.getElementById("resultForm").innerHTML = sum ;
+}
 
