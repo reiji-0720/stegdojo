@@ -13,12 +13,39 @@ button.addEventListener("click",function(e){
 
 });
 
+$(function(){
+  $(("#textForm1")||("#textForm2")).blur(function(){ 
+    if ( !isNumeric($(this).val())
+    ){ 
+      $(this).focus(); 
+    } 
+  });
+});
+
 function isNumeric(value) {
-   if ( value == null )
-     return;
-   if( value.match( /[^0-9.,-]+/ ) ) {
-     alert("半角数字で入力して下さい。");
-     return false;
-   }
-   return true;
- };
+  if ( value == null )
+    return;
+  if( value.match( /[^0-9.,-]+/ ) ) {
+    alert("半角数字で入力して下さい。");
+    return false;
+  }
+  return true;
+};
+
+
+
+function isPositive(e) {
+  if ( (e.which < "0".charCodeAt(0) || "9".charCodeAt(0) < e.which) && e.which != 8 && e.which != 0 && e.which != 46 )
+    return false;
+  return true;
+}
+
+
+ $(function(){
+   $(("#textForm1")||("#textForm2")).keypress(function(event){
+     return isPositive(event);
+    }
+    
+  );
+});
+
