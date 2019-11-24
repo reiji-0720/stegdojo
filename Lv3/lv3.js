@@ -1,7 +1,7 @@
 var button = document.getElementById("button");
 var checkString1;
 var checkString2//桁数チェック
-button.addEventListener("click",function(e){
+a.addEventListener("click",function(e){
    e.preventDefault();
 
 
