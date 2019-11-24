@@ -43,3 +43,6 @@ p{
     text-shadow: -6px 0px 15px rgba(255, 255, 240, 0.83),
                  6px 0px 15px rgba(255, 255, 240, 0.83);
   }
+  a{
+      cursor:pointer;
+  }
