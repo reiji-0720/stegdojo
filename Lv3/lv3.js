@@ -79,13 +79,29 @@ function isPositive(e) {
 function onKeyPress(e) {
   if ( e.keyCode !== 13 || ( e.keyCode === 13 && (e.shiftKey === true || e.ctrlKey === true || e.altKey === true) )) { // Enterキー除外
     return false;
-  }
+  }else{
+
+
   var textForm1 = document.getElementById("textForm1").value;
   var textForm2 = document.getElementById("textForm2").value;
 
   var sum = parseFloat(textForm1,10) + parseFloat(textForm2,10);
+   checkString1 = String(textForm1).length;
+   checkString2 = String(textForm2).length;
 
-  var resultForm = document.getElementById("resultForm");
-  document.getElementById("resultForm").innerHTML = sum ;
+   if (((0 <= checkString1) && (checkString1 <= 10))&&((0 <= checkString2 )&&(checkString2 <= 10))){
+     
+      
+
+      var resultForm = document.getElementById("resultForm");
+      document.getElementById("resultForm").innerHTML = sum ;
+
+
+   }else{
+    alert("10桁以下しか計算できません")
+   }
+
+  }
+ 
 }
 
