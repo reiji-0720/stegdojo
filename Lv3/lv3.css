@@ -54,3 +54,7 @@ p{
     font-weight: 600;
     color: rgb(106, 106, 206);
 }
+
+.character{
+    margin : 10px;
+}
