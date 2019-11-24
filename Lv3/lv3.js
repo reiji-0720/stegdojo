@@ -13,3 +13,12 @@ button.addEventListener("click",function(e){
 
 });
 
+function isNumeric(value) {
+   if ( value == null )
+     return;
+   if( value.match( /[^0-9.,-]+/ ) ) {
+     alert("半角数字で入力して下さい。");
+     return false;
+   }
+   return true;
+ };
