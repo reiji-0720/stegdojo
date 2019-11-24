@@ -14,12 +14,20 @@ button.addEventListener("click",function(e){
 });
 
 $(function(){
-  $(("#textForm1")||("#textForm2")).blur(function(){ 
+  $("#textForm1").blur(function(){ 
     if ( !isNumeric($(this).val())
     ){ 
       $(this).focus(); 
     } 
-  });
+  })
+});
+$(function(){
+  $("#textForm2").blur(function(){ 
+    if ( !isNumeric($(this).val())
+    ){ 
+      $(this).focus(); 
+    } 
+  })
 });
 
 function isNumeric(value) {
