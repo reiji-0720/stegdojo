@@ -44,3 +44,12 @@ p{
   .button-box p{
       cursor:pointer;
   }
+  .top-wrapper{
+      text-align: center;
+
+  }
+.top-wrapper p{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(106, 106, 206);
+}
