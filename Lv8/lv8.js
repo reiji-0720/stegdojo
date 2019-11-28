@@ -1,7 +1,7 @@
 
 var table = document.createElement('table');
 
-for ( var i = 1; i < 11; i++){
+for ( var i = 1; i < 9; i++){
 
     var div = document.createElement('div');
     div.className = 'box'+ i;
