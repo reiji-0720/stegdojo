@@ -1,6 +1,7 @@
 body{
 
     margin: 0;
+    height: 6000px;
 }
 header{
     background-color: #dddddd;
@@ -23,7 +24,8 @@ img{
 }
 
 .box{
-    margin: 50px 0;
+    height: 500px;
+    margin-bottom: 500px;
 }
 main{
     margin-top: 200px;
