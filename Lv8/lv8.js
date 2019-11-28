@@ -14,5 +14,5 @@ for ( var i = 1; i < 9; i++){
     var img = document.createElement('img');
     img.src = './' + i +'.jpg';
     img.alt = i + 'の画像';
-    document.getElementById('iamges'+ i).appendChild(div)
+    document.getElementById('test1').appendChild(div)
 };
