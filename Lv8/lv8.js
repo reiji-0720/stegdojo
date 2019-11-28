@@ -8,7 +8,7 @@ for ( var i = 1; i < 9; i++){
 
     var tmp = document.getElementsByClassName("box")
     var val="images"+ i;
-    tmp[i-1].setAttribute("id",val)
+    tmp[0].setAttribute("id",val)
 
 
     var img = document.createElement('img');
